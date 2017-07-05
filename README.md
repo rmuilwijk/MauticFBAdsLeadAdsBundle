@@ -25,10 +25,12 @@ https://developers.facebook.com/apps/
 
 8) Authenticate the app using oAuth.
 
-9) Enable the webhooks Product in your Facebook App.
+9) In the plugin settings map the fields to your contact lead fields.
 
-10) Go to the webhooks product in your Facebook APP and add your subscriber to the 'page' event:
+10) Enable the webhooks Product in your Facebook App.
+
+11) Go to the webhooks product in your Facebook APP and add your subscriber to the 'page' event:
 url: $YOURHOST/plugin/fbadsleadads/leadform_subscriber
 verify_token: Token you choose in step 7.
 
-11) In your Facebook App Review add the manage_pages scope for review.
+12) In your Facebook App Review add the manage_pages scope for review.
